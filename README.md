@@ -58,8 +58,8 @@
     setDefaultGravity(int)//设置显示位置Gravity.BOTTOM,TOP,LEFT,RIGHT //可选  
     ```  
 - 配置完所有参数后，调用Build();就可以生成一个Fragment;然后添加到了一个布局上就可以了。  
-***  
-###  简单的使用教程  
+***    
+### 简单的使用教程  
 - project Build.gradle添加  
 ```
 allprojects {
