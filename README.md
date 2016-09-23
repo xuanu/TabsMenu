@@ -60,6 +60,21 @@
 - 配置完所有参数后，调用Build();就可以生成一个Fragment;然后添加到了一个布局上就可以了。  
 ***  
 ###  简单的使用教程  
+- project Build.gradle添加  
+```
+allprojects {
+		repositories {
+			...
+			maven { url "https://jitpack.io" }
+		}
+	}
+```  
+- app Build.gradle添加  
+```
+dependencies {
+	        compile 'com.github.xuanu:TabsMenu:0.0.1'
+	}
+```  
 - RadioGroup
 - TabLayou  
 ```  
